@@ -1,12 +1,13 @@
-*.class
+# Ignorar archivos de workflow
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+node_modules
+node_modules/
+/.DS_Store
+/dist/assets/.DS_Store
+/dist/.DS_Store
+/dist/assets/js/.DS_Store
+/src/.DS_Store
+/src/less/.DS_Store
+/dist/assets/images/.DS_Store
+/dist/src/images/.DS_Store
+.DS_Store
