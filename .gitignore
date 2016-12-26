@@ -11,3 +11,5 @@ node_modules/
 /dist/assets/images/.DS_Store
 /dist/src/images/.DS_Store
 .DS_Store
+
+# /dist/inc/conf.php
