@@ -1,2 +1,2 @@
-# dots-and-boxes
+# Dots and Boxes
 Juego de puntos y raya

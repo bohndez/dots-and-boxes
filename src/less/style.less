@@ -1,13 +1,56 @@
 // Estilos con LESS
 @import "inc/html5reset.less";
 
-body {
-	background: #669088;
-	width: 100%;
+@rayas: #bbb;
+@puntos: #333;
+@cuadro-blanco: #ddd;
+
+.tablero{
+   border: 2px solid #ccc;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   padding: 10px;
+   transform: translate(-50%, -50%;);
 }
-h1{
-    color: #fff;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 300;
+.col-odd{
+   width: 30px;
+   float: left;
+}
+.col-even{
+   width: 5px;
+   float: left;
+}
+.cuadro{
+   width: 35px;
+   height: 35px;
+   float: left;
+   & >div{
+      float: left;
+   }
+}
+.raya-h, .raya-v{
+   cursor: pointer;
+   background: @rayas;
+   &:hover{
+      background: #0f9;
+   }
+}
+.raya-h{
+   width: 30px;
+   height: 5px;
+}
+.raya-v{
+   width: 5px;
+   height: 30px;
+}
+.punto{
+   width: 5px;
+   height: 5px;
+   background: @puntos;
+}
+.cuadro-letra{
+   width: 30px;
+   height: 30px;
+   background: @cuadro-blanco;
 }
